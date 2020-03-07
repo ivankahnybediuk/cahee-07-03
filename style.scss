@@ -1,0 +1,136 @@
+body{
+    .container-fluid{
+        list-style: none;
+        margin-top: 0;
+        .header{
+            background-image: url(/img/header_bg.png);
+            background-size: cover;
+          .container{
+                .upper_block{
+                    margin-top: 5vh;
+                    #logo{
+                        font-family:'Pacifico', cursive;
+                        font-size: 50px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    .menu{
+                        text-align: center;
+                        margin-top: 3vh;
+                        flex-wrap: nowrap;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: bold;
+                        font-size: 16px;
+                        color: black;
+                            .menu-item{
+                                color: black;
+                                &:hover{
+                                    border-top: 2px red solid;
+                                }
+                                }
+                            }
+                        }
+                        }
+                    }
+                }
+                .text-header{
+                    margin-top: 20vh;
+                    margin-bottom: 30vh;
+                    font-style:'Raleway', sans-serif ;
+                    color: #262626;
+                        h1{
+                            font-size: 50px;
+                            font-weight: bolder;
+                        }
+                        .headerbtn{
+                            background-color: #ff6033;
+                            border: none;
+                            box-shadow: 1px 1px 1px #9a9a9c;
+                            margin-top: 5vh;
+                            font-size: 20px;
+                            &:hover{
+                                background-color: #f57754;
+                                font-weight: bolder;
+                            }}
+                            p{
+                                font-size: 17px;
+                            }
+                            }
+                        }
+                        .mouse{
+                            margin-top: -35vh;
+                            margin-left: 45%;
+                            margin-right: 45%;
+                            &:hover{
+                                margin-top: -40vh
+                            }}
+        .second{
+            background-color: #00b2b2;
+            .container{
+                .second-block{
+                    img{
+                        margin-top: 5vh;
+                        margin-bottom: 5vh;
+                    }
+                    .second-text{
+                        margin-top: 7vw;
+                        margin-bottom: 5vh;
+                        color: white;
+                        h1{
+                            font-size: 90px;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    .third{
+        background-color: #70bfff;
+        .third-container{
+            height: 90vh;
+            .third-row{
+                .services{
+                    margin-top: 10vh;
+                    margin-bottom: 10vh;
+                    position: relative;
+                    .tomato{
+                        width: 70%;
+                    }
+                    h1{
+                        position: absolute;
+                        font-weight: bold;
+                        font-size: 70px;
+                        color: white;
+                        top: 40%;
+                        left: -9%;
+                    }
+                    }
+                 .items{
+                    margin-top: 10vh;
+                    margin-bottom: 10vh; 
+                    display: flex;
+                    flex-direction: row;
+                    .service-text{
+                   .item{
+                    height: 10vh;
+                    background-color: white;
+                    color: #262626;
+                    margin: 5vh;
+                    margin-left: 0;
+                    padding: 2%;
+                    text-align: center;
+                    }
+                }
+                   .service-icon{
+                    height: 10vh;
+                    background-color: white;
+                    color: #262626;
+                    margin: 5vh;
+                    padding: 2%;
+                   }
+                }}
+            }
+    }
