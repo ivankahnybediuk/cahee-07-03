@@ -1,3 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body .container-fluid {
   list-style: none;
   margin-top: 0;
@@ -56,7 +63,6 @@ body .text-header .headerbtn {
   -webkit-box-shadow: 1px 1px 1px #9a9a9c;
           box-shadow: 1px 1px 1px #9a9a9c;
   margin-top: 5vh;
-  font-size: 20px;
 }
 
 body .text-header .headerbtn:hover {
@@ -100,62 +106,5 @@ body .text-header p {
 
 .second .container .second-block .second-text p {
   font-size: 17px;
-}
-
-.third {
-  background-color: #70bfff;
-}
-
-.third .third-container {
-  height: 90vh;
-}
-
-.third .third-container .third-row .services {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  position: relative;
-}
-
-.third .third-container .third-row .services .tomato {
-  width: 70%;
-}
-
-.third .third-container .third-row .services h1 {
-  position: absolute;
-  font-weight: bold;
-  font-size: 70px;
-  color: white;
-  top: 40%;
-  left: -9%;
-}
-
-.third .third-container .third-row .items {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.third .third-container .third-row .items .service-text .item {
-  height: 10vh;
-  background-color: white;
-  color: #262626;
-  margin: 5vh;
-  margin-left: 0;
-  padding: 2%;
-  text-align: center;
-}
-
-.third .third-container .third-row .items .service-icon {
-  height: 10vh;
-  background-color: white;
-  color: #262626;
-  margin: 5vh;
-  padding: 2%;
 }
 /*# sourceMappingURL=style.css.map */

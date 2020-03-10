@@ -52,7 +52,6 @@ body{
                             border: none;
                             box-shadow: 1px 1px 1px #9a9a9c;
                             margin-top: 5vh;
-                            font-size: 20px;
                             &:hover{
                                 background-color: #f57754;
                                 font-weight: bolder;
@@ -92,50 +91,4 @@ body{
                 }
             }
         }
-    .third{
-        background-color: #70bfff;
-        .third-container{
-            height: 90vh;
-            .third-row{
-                .services{
-                    margin-top: 10vh;
-                    margin-bottom: 10vh;
-                    position: relative;
-                    .tomato{
-                        width: 70%;
-                    }
-                    h1{
-                        position: absolute;
-                        font-weight: bold;
-                        font-size: 70px;
-                        color: white;
-                        top: 40%;
-                        left: -9%;
-                    }
-                    }
-                 .items{
-                    margin-top: 10vh;
-                    margin-bottom: 10vh; 
-                    display: flex;
-                    flex-direction: row;
-                    .service-text{
-                   .item{
-                    height: 10vh;
-                    background-color: white;
-                    color: #262626;
-                    margin: 5vh;
-                    margin-left: 0;
-                    padding: 2%;
-                    text-align: center;
-                    }
-                }
-                   .service-icon{
-                    height: 10vh;
-                    background-color: white;
-                    color: #262626;
-                    margin: 5vh;
-                    padding: 2%;
-                   }
-                }}
-            }
-    }
+ 
